@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import abc from "../images/logo.jpg"
 import abc from "../images/download.jpeg"
 import Navbar from "./Navbar";
@@ -8,9 +8,9 @@ import styled from "styled-components";
 const Header = () => {
   return (
    <MainHeader>
-    <NavLink to="/">
+    <Link to="/">
         <img src={abc} alt="logo" className="logo"/>
-    </NavLink>
+    </Link>
     <Navbar />
    </MainHeader>
   );
